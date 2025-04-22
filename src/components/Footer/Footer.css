@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    width: 100%;
+}
+
+.footer__dev {
+    font-family: "Cabinet Grotesk";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.footer__year {
+    margin-left: auto;
+    font-family: "Cabinet Grotesk";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
