@@ -4,6 +4,8 @@
     display: flex;
     padding-bottom: 40px;
     position: relative;
+    /* border-radius: 12px; */
+    /* overflow: hidden; */
 }
 
 .weather-card__temp {
@@ -21,4 +23,5 @@
     object-fit: cover;
     object-position: right top;
     width: 100%;
+    border-radius: 12px;
 }

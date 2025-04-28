@@ -1,11 +1,11 @@
 import "./ItemCard.css";
 
-function ItemCard({ key, item }) {
+function ItemCard({ item }) {
   return (
-    <div className="card__container">
-      <p className="card__name">{item.name}</p>
+    <li className="card__container">
+      <h2 className="card__text">{item.name}</h2>
       <img src={item.link} alt={item.name} className="card__image" />
-    </div>
+    </li>
   );
 }
 export default ItemCard;
