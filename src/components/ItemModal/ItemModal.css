@@ -1,15 +1,15 @@
 .modal__container_type_item {
-    position: relative;
-    background-color: #fff;
-    border-radius: 20px;
-    width: 100%;
-    max-width: 498px;
-    max-height:610px;
-    border-radius: 20px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 498px;
+  max-height: 610px;
+  border-radius: 20px;
 }
 
 .modal__close-btn_type_item {
-    position: absolute;
+  position: absolute;
   top: 20px;
   right: 28px;
   background-image: url("../../assets/white-close-button.svg");
@@ -23,33 +23,33 @@
 }
 
 .modal__image {
-    width: 100%;
-    height: 498px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  width: 100%;
+  height: 498px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .modal__info {
-    padding-left: 32px;
-    padding-top: 20px;
-    padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  padding-left: 32px;
+  padding-top: 20px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .modal__item-name {
-    margin: 0;
-    font-family: "Cabinet Grotesk";
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .modal__weather-type {
-    margin: 0;
-    font-family: "Cabinet Grotesk";
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
 }
