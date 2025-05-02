@@ -8,6 +8,11 @@
   justify-content: center;
   align-items: center;
   background-color: #0000004d;
+  visibility: hidden;
+}
+
+.modal__opened {
+    visibility: visible;
 }
 
 .modal__container {
@@ -21,17 +26,17 @@
 }
 
 .modal__close-btn {
-  position: absolute;
-  top: 20px;
-  right: 28px;
-  background-image: url("../../assets/grey-close-button.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  width: 20px;
-  height: 20px;
-  border: none;
-  cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    background-image: url("../../assets/grey-close-button.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
 }
 
 .modal__form {
